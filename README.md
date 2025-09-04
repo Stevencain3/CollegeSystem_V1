@@ -1,6 +1,6 @@
 **Authors**
 - [Breckin](https://github.com/Breckin1027)  
-- [Steven](https://github.com/Stevencain3))  
+- [Steven](https://github.com/Stevencain3)  
 
 **Overview**
     This repository contains the first version of our College Database design using MySQL Workbench (EER Diagram + Forward Engineering).
