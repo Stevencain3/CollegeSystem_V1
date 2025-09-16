@@ -8,14 +8,17 @@ This repository contains the first version of our College Database design using 
     
 ## This database includes the following core entities
 ___
-* People - stores all individuals (students, admins, faculty) with roles.
-* Departments - academic departments offering courses.
-* Semesters - academic terms (e.g., Fall 2025).
-* Courses - connected to a semester, section, and assigned faculty.
-* Rooms - classrooms with seating capacity constraints.
+* User - stores all individuals (students, admins, faculty) with roles.
+* Department - academic departments offering courses.
+* Semester - academic terms (e.g., Fall 2025).
+* Course - connected to a semester, section, and assigned faculty.
+* Room - classrooms with seating capacity constraints.
 * Enrollment - mapping of students to courses.
-* Letter Grades - assigned to students through enrollment records.
-* Each table includes primary keys, foreign keys, unique constraints, and not-null requirements to maintain integrity.
+* GPA - each student's grades
+* Faculty - faculty location and courses
+* Student_has_Semester - bridge table connecting semester and student
+* Faculty_has_Semester - bridge table conencting semester and faculty
+* * Each table includes primary keys, foreign keys, unique constraints, and not-null requirements to maintain integrity.
 
 ## Tech Stack
 ___
@@ -27,7 +30,7 @@ ___
 <img src="https://github.com/Stevencain3.png" alt="Profile Picture" width="100" />
 <img src="https://github.com/Breckin1027.png" alt="Profile Picture" width="100" />
 
-**Clay Rasmussen & Breckin Lukehart**
+**Steven Cain & Breckin Lukehart**
 * **Steven's GitHub Profile**: [Stevencain3](https://github.com/Stevencain3)
 * **Breckin's GitHub Profile**: [Breckin1027](https://github.com/Breckin1027)
 ___
